@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textViewSong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:layout_margin="5dp"
+        android:textColor="#4E94CF"
+        android:text="TextView" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textViewYear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:text="TextView" />
+
+        <ImageView
+            android:id="@+id/star1"
+            android:layout_width="25px"
+            android:layout_height="25px"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/blackstar" />
+
+        <ImageView
+            android:id="@+id/star2"
+            android:layout_width="25px"
+            android:layout_height="25px"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/blackstar" />
+
+        <ImageView
+            android:id="@+id/star3"
+            android:layout_width="25px"
+            android:layout_height="25px"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/blackstar" />
+
+        <ImageView
+            android:id="@+id/star4"
+            android:layout_width="25px"
+            android:layout_height="25px"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/blackstar" />
+
+        <ImageView
+            android:id="@+id/star5"
+            android:layout_width="25px"
+            android:layout_height="25px"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/blackstar" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textViewSinger"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:textColor="#1FDCE4"
+        android:text="TextView" />
+</LinearLayout>
